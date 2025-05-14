@@ -1,0 +1,68 @@
+/* Simple Professional Theme */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Helvetica Neue', Arial, sans-serif;
+  background: #f4f6f8;
+  color: #222;
+  min-height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  color: #1a202c;
+}
+
+a {
+  color: #2563eb;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+input, button, select, textarea {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.5em 0.75em;
+  border-radius: 4px;
+  border: 1px solid #cbd5e1;
+  margin-bottom: 1em;
+  background: #fff;
+  box-sizing: border-box;
+}
+
+button {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+button:hover {
+  background: #1e40af;
+}
+
+form {
+  background: #fff;
+  padding: 2em 2.5em;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  max-width: 400px;
+  margin: 2em auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
+  font-weight: 500;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2em 1em;
+}
